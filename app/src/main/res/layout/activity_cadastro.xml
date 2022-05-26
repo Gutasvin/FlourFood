@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".views.Cadastro">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/logo_app" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Registrar Usuario:"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Usuario"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+
+        <EditText
+            android:id="@+id/usuario"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:background="@drawable/shape_textedit"
+            android:hint="Digite seu novo nome de usuario"
+            android:paddingLeft="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="10sp"
+            android:text="Senha"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/senha"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:background="@drawable/shape_textedit"
+            android:hint="Digite sua nova senha de usuario"
+            android:paddingLeft="20dp" />
+
+        <Button
+            android:id="@+id/cadastrar"
+            android:layout_width="600px"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/shape_textedit"
+            android:backgroundTint="@color/amarelo"
+            android:text="Registrar"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/erroCadastro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/vermelho"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.Mesas">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <!--Table 1-->
+        <LinearLayout
+            android:id="@+id/linearTable1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/verde"
+            android:orientation="vertical"
+            android:textAlignment="center">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/mesa"
+                android:visibility="visible"
+                tools:visibility="visible">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:text="1"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <!--Table 2-->
+        <LinearLayout
+            android:id="@+id/linearTable2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="152dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/verde"
+            android:orientation="vertical"
+            android:textAlignment="center">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/mesa"
+                android:visibility="visible"
+                tools:visibility="visible">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="2"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <!--Table 3-->
+        <LinearLayout
+            android:id="@+id/linearTable3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/verde"
+            android:orientation="vertical"
+            android:textAlignment="center">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/mesa"
+                android:visibility="visible"
+                tools:visibility="visible">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text=" 3"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <!--Table 4-->
+        <LinearLayout
+            android:id="@+id/linearTable4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="132dp"
+            android:background="@color/verde"
+            android:orientation="vertical"
+            android:textAlignment="center">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/mesa"
+                android:visibility="visible"
+                tools:visibility="visible">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="4"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <!--Table 5-->
+        <LinearLayout
+            android:id="@+id/linearTable5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="152dp"
+            android:layout_marginTop="132dp"
+            android:background="@color/verde"
+            android:orientation="vertical"
+            android:textAlignment="center">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/mesa"
+                android:visibility="visible"
+                tools:visibility="visible">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <!--Table 6-->
+        <LinearLayout
+            android:id="@+id/linearTable6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="132dp"
+            android:background="@color/verde"
+            android:orientation="vertical"
+            android:textAlignment="center">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/mesa"
+                android:visibility="visible"
+                tools:visibility="visible">
+
+            </ImageView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <!--Table 7-->
+        <LinearLayout
+            android:id="@+id/linearTable7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="242dp"
+            android:background="@color/verde"
+            android:orientation="vertical"
+            android:textAlignment="center">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/mesa"
+                android:visibility="visible"
+                tools:visibility="visible">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="7"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <!--Table 8-->
+        <LinearLayout
+            android:id="@+id/linearTable8"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="152dp"
+            android:layout_marginTop="242dp"
+            android:background="@color/verde"
+            android:orientation="vertical"
+            android:textAlignment="center">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/mesa"
+                android:visibility="visible"
+                tools:visibility="visible">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="8"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <!--Table 9-->
+        <LinearLayout
+            android:id="@+id/linearTable9"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="242dp"
+            android:background="@color/verde"
+            android:orientation="vertical"
+            android:textAlignment="center">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/mesa"
+                android:visibility="visible"
+                tools:visibility="visible">
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="9"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
