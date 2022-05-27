@@ -11,6 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.flour_foods.ListViewClass;
 import com.example.flour_foods.R;
+import com.example.flour_foods.controllers.MesasController;
 import com.example.flour_foods.controllers.Produtos;
 
 public class Home extends AppCompatActivity {
@@ -56,8 +57,9 @@ public class Home extends AppCompatActivity {
         reservas.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent it = new Intent(Home.this, Mesas.class);
-                startActivity(it);
+                MesasController mc = new MesasController();
+
+                mc.buscarMesas(Home.this);
             }
         });
     }

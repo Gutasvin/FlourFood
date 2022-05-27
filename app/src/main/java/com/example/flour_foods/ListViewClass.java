@@ -33,7 +33,6 @@ public class ListViewClass extends AppCompatActivity {
         ArrayList<String> produtoNome = it.getStringArrayListExtra("produtosNome");
         ArrayList<String> produtoPreco = it.getStringArrayListExtra("produtosPreco");
         ArrayList<String> produtoId = it.getStringArrayListExtra("produtosId");
-        int[] ids = { android.R.id.text1, android.R.id.text2 };
 
 
         //ArrayAdapter<String> adapter = new ArrayAdapter<>(this,android.R.layout.simple_list_item_2, produtoNome);

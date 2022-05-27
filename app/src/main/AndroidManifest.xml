@@ -14,6 +14,9 @@
         android:theme="@style/Theme.Flour_foods"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".FazerPedido"
+            android:exported="false" />
+        <activity
             android:name=".views.Mesas"
             android:exported="false" />
         <activity

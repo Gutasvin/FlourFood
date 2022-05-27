@@ -15,12 +15,11 @@
 
         <!--Table 1-->
         <LinearLayout
-            android:id="@+id/linearTable1"
+            android:id="@+id/mesa1"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginLeft="40dp"
             android:layout_marginTop="20dp"
-            android:background="@color/verde"
             android:orientation="vertical"
             android:textAlignment="center">
 
@@ -50,7 +49,7 @@
 
         <!--Table 2-->
         <LinearLayout
-            android:id="@+id/linearTable2"
+            android:id="@+id/mesa2"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginLeft="152dp"
@@ -77,13 +76,11 @@
                 android:textColor="@color/white"
                 android:textSize="20dp"
                 android:textStyle="bold" />
-
-
         </LinearLayout>
 
         <!--Table 3-->
         <LinearLayout
-            android:id="@+id/linearTable3"
+            android:id="@+id/mesa3"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginLeft="260dp"
@@ -116,7 +113,7 @@
 
         <!--Table 4-->
         <LinearLayout
-            android:id="@+id/linearTable4"
+            android:id="@+id/mesa4"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginLeft="40dp"
@@ -149,7 +146,7 @@
 
         <!--Table 5-->
         <LinearLayout
-            android:id="@+id/linearTable5"
+            android:id="@+id/mesa5"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginLeft="152dp"
@@ -181,7 +178,7 @@
 
         <!--Table 6-->
         <LinearLayout
-            android:id="@+id/linearTable6"
+            android:id="@+id/mesa6"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginLeft="260dp"
@@ -215,7 +212,7 @@
 
         <!--Table 7-->
         <LinearLayout
-            android:id="@+id/linearTable7"
+            android:id="@+id/mesa7"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginLeft="40dp"
@@ -248,7 +245,7 @@
 
         <!--Table 8-->
         <LinearLayout
-            android:id="@+id/linearTable8"
+            android:id="@+id/mesa8"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginLeft="152dp"
@@ -281,7 +278,7 @@
 
         <!--Table 9-->
         <LinearLayout
-            android:id="@+id/linearTable9"
+            android:id="@+id/mesa9"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginLeft="260dp"
